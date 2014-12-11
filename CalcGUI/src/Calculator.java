@@ -6,11 +6,12 @@ import javax.swing.JButton;
 import javax.swing.JProgressBar;
 import javax.swing.JTextArea;
 import javax.swing.JLabel;
+
 import java.awt.Font;
 
 
 public class Calculator {
-
+	
 	private JFrame Investment_Calculator;
 	private JTextField txtAbc;
 	private JTextField textField_1;
@@ -53,21 +54,25 @@ public class Calculator {
 		txtAbc.setBounds(227, 36, 180, 32);
 		Investment_Calculator.getContentPane().add(txtAbc);
 		txtAbc.setColumns(10);
+		txtAbc.getText();
 		
 		textField_1 = new JTextField();
 		textField_1.setBounds(227, 73, 180, 30);
 		Investment_Calculator.getContentPane().add(textField_1);
 		textField_1.setColumns(10);
+		textField_1.getText();
 		
 		textField_2 = new JTextField();
 		textField_2.setColumns(10);
 		textField_2.setBounds(227, 113, 180, 30);
 		Investment_Calculator.getContentPane().add(textField_2);
+		textField_2.getText();
 		
 		textField_3 = new JTextField();
 		textField_3.setColumns(10);
 		textField_3.setBounds(227, 154, 180, 30);
 		Investment_Calculator.getContentPane().add(textField_3);
+		textField_3.getText();
 		
 		JButton btnNewButton = new JButton("Calculate");
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 14));
